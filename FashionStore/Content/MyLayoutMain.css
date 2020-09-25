@@ -368,17 +368,17 @@ footer {
     color: #333;
 }
 
-    .copyright .list-social > li > a:hover {
-        background: #333;
-        border: 1px solid #333;
-        font-size: 20px;
-        color: #fff;
-    }
+.copyright .list-social > li > a:hover {
+    background: #333;
+    border: 1px solid #333;
+    font-size: 20px;
+    color: #fff;
+}
 
-    .copyright .list-social > li > a .fa {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        margin-left: -8px;
-        margin-top: -9px;
-    }
+.copyright .list-social > li > a .fa {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -8px;
+    margin-top: -9px;
+}
