@@ -12,7 +12,9 @@ namespace FashionStore.Controllers
         // GET: Product
         public ActionResult Index()
         {
-            return View();
+            OnlineStoreContext onlineStoreContext = new OnlineStoreContext();
+            List<ProductTbl> products = onlineStoreContext.Products.ToList();
+            return View(products);
         }
     }
 }

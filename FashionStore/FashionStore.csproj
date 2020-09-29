@@ -312,10 +312,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Department\" />
-    <Folder Include="Views\Product\" />
     <Folder Include="Views\ShippingDetail\" />
   </ItemGroup>
   <ItemGroup>
