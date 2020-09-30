@@ -7,18 +7,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FashionStore.Models
+namespace FashionStore.AllTables
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class CartTbl
+    public partial class SlideImageTbl
     {
-        public int CartId { get; set; }
-        public int ProductId { get; set; }
-        public int MemberId { get; set; }
-        public int CartStatusId { get; set; }
-    
-        public virtual ProductTbl ProductTbl { get; set; }
+        public int SlideId { get; set; }
+        public string SlideTitle { get; set; }
+        public string SlideImage { get; set; }
     }
 }

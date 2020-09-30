@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FashionStore.Models
+namespace FashionStore.AllTables
 {
     using System;
     using System.Collections.Generic;

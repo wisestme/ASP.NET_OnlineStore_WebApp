@@ -7,14 +7,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FashionStore.Models
+namespace FashionStore.AllTables
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class CartStatusTbl
+    public partial class RolesTbl
     {
-        public int CartStatusId { get; set; }
-        public string CartStatus { get; set; }
+        public int RoleId { get; set; }
+        public string RoleName { get; set; }
     }
 }

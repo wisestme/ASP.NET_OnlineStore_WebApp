@@ -7,14 +7,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FashionStore.Models
+namespace FashionStore.AllTables
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class RolesTbl
+    public partial class MemberRoleTbl
     {
+        public int MemberRoleId { get; set; }
+        public int MemberId { get; set; }
         public int RoleId { get; set; }
-        public string RoleName { get; set; }
     }
 }
