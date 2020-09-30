@@ -13,7 +13,7 @@ namespace FashionStore.Controllers
         public ActionResult Index()
         {
             OnlineStoreContext onlineStoreContext = new OnlineStoreContext();
-            List<ProductTbl> products = onlineStoreContext.Products.ToList();
+            List<ProductDetail> products = onlineStoreContext.Products.ToList();
             return View(products);
         }
     }
