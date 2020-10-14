@@ -170,6 +170,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -234,6 +235,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminStyles\assets\demo\chart-area-demo.js" />
+    <Content Include="AdminStyles\assets\demo\chart-bar-demo.js" />
+    <Content Include="AdminStyles\assets\demo\chart-pie-demo.js" />
+    <Content Include="AdminStyles\assets\demo\datatables-demo.js" />
+    <Content Include="AdminStyles\assets\img\error-404-monochrome.svg" />
+    <Content Include="AdminStyles\css\styles.css" />
+    <Content Include="AdminStyles\js\scripts.js" />
     <Content Include="App_Data\Creamchic.mdf" />
     <Content Include="App_Data\Creamchic_log.ldf">
       <DependentUpon>Creamchic.mdf</DependentUpon>
@@ -318,8 +326,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Views\Admin\" />
     <Folder Include="Views\Department\" />
     <Folder Include="Views\Product\" />
     <Folder Include="Views\ShippingDetail\" />
