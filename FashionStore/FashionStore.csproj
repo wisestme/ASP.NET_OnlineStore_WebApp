@@ -327,9 +327,9 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Admin\" />
     <Folder Include="Views\Department\" />
     <Folder Include="Views\Product\" />
     <Folder Include="Views\ShippingDetail\" />
